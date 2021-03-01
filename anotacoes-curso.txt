@@ -130,5 +130,18 @@ alteração que foi feita no seu projeto;
 ° E isso fará com que este novo arquivo seja monitorado pelo git;
 ° O arquivo anterior é excluído.
 
+->Com esse comando podermos fazer a alteração de diretório do arq, e tbm renomear;
+1. Para fazer a alteração de diretório, podemos fazer da seguinte forma:
+git mv (diretorioatual\arqatual.txt) (diretorionovo\aruivoatual.txt) 
+2. Para renomear um arquivo, faça da seguinte forma:
+git mv (diretorioatual\arqatual.txt) (diretorioatual\arquivonovo.txt)
+---------------------------------------------
+
+----------Desfazendo Alterações--------------
+° O arquivo modificado pode ser retornado ao estado original;
+° O comando utilizado é o "git checkout";
+° Após a utilização do mesmo o arquivo sai do staging;
+° Caso seja feita uma próxima alteração, ele entra no staging novamente.
+
 ->
 
