@@ -96,4 +96,8 @@ a versão mais nova;
 ° Este comando é utilizado quando entramos em um novo projet, por exemplo.
 
 ->Esse comando é feito para trazer os arquivos do repo para o seu pc;
-1. 
+1. Quando vc entra em um novo projeto, deve pegar os arquivos upados no GitHub.
+2. Para fazer isso deve-se usar o comando "git clone";
+3. Vamos no GitHub na área de download do código e selecionamos a url. 
+4. Agora vamos no terminal e digitamos "git clone https://github.com/dallisonlima/curso_git_1.git ",
+e tudo que tem no repositório será trazido para minha máquina. 
