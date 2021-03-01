@@ -1,0 +1,98 @@
+-----Enviando um Repositório para o GH-----
+° Podemos Facilmente enviar nossos repos para o GitHub;
+° Precisamos criar o projeto no GitHub, inicializar o mesmo no git em
+nossa máquina, sincronizar com o GitHub e enviar;
+° E esta sequência que parece ser complexa é facilmente executada por
+poucos comandos;
+° Vale lembrar que só fazemos uma vez por projeto este fluxo;
+° Porém alguns comandos utilizados vão ser úteis ao longo do curso.
+
+-> Para criar um projeto no GitHub:
+01. Vá em Repositories;
+02. Aperte no botão verde NEW;
+03. Coloque o nome e a descrição;
+04. Selecione se o repo vai ser público ou privado;
+05. As opções abaixo vc pode add um readme.txt, um .gitignore
+06. Ele vai te dar o passo a passo de como fazer o próximo passo no vscode;
+07. Seleciona a pasta dos arquivos no VScode;
+08. Abre o terminal, e faça os comandos do passo a passo, linha por linha.
+----------------------------------------------
+
+-----Verificando as Mudanças do projeto-------
+° As mudanças do projeto podem ser verificadas por: git status;
+° Este comando é utilizado muito;
+° Aqui serão mapeadas todas as alterações do projeto;
+° Como: arquivos não monitorados e arquivos modificados;
+° Podemos também dizer que a diferença do que já está enviado ao servidor
+ou salvo no projeto, ou seja, tudo que aparece no git status, é pq ainda não
+foi upado no servidor.
+
+-> Estando dentro do terminal faça: git status;
+1. Arquivos UNTRACKED: quando ainda não está sendo mapeado pelo git.
+2. Se é feito uma modificação e essa mudança ainda não,
+foi enviado ao repo, ele aparece como MODIFIED.(Esse já está no tracked)
+---------------------------------------------
+
+-----Adicionando arquivos ao projeto---------
+° Para adicionar arquivos a um projeto utilizamos o: git add;
+° Podemos adicionar um arquivo específico como também diversos de uma vez só;
+° Somente adicionadno arquivos eles serão monitorados pelo git;
+° É interessante utilizar este comando de tempos em tempos para n perder nada.
+
+-> Como add um arquivo:
+1. Se for um arquivo expecífico: git add (nome do arquivo, ex: index.html);
+2. Se for para adicionar um arquivo em outra pasta: git add (diretório, ex: css/style.css);
+3. Se quiser add tudo de uma vez só: git add . (ponto). 
+----------------------------------------------
+
+-----Salvando alterações----------------------
+° As alterações salvas do projeto são realizadas por: git commit;
+° Podemos commitar arquivos específicos ou vários de uma vez com a flag -a;
+° É uma boa prática enviar uma mensagem a cada commit, com as alterações 
+que foram feitas;
+° A mensagem pode ser add com a flag -m.
+
+-> Aqui basicamente vamos aprender a commitar:
+1. Quando damos um git status ele vai mostrar tudo verdinho,
+e isso significa que temos que commitar todos;
+2. Para fazer um commit com mensagem, faça: git commit -m "mensagem teste";
+3. Para mandar os arquivos, faça: git commit -a -m "mensagem teste";
+4. Se vc der um git status agora, vai quer que n tem mais nada verdinho.
+----------------------------------------------
+
+-----Enviando arquivos para o Servidor---------
+° Quando finalizamos uma funcionalidade nova, enviamos o código ao repositório
+remoto, que é código-fonte;
+° Esta ação é feita pelo git push;
+° Após esta ação o código do servidor será atualizado baseando-se no códido 
+local enviado.
+
+-> O comando para fazermos o envio de todo o código para o GitHub é o git push;
+1. O estado idel para enviar um código é quando vc dá um git status e não tem nada lá
+para você enviar; 
+2. Se vc der um git status e não aparecer nada, pode dar um git push e todos os seus
+arquivos apareceram lá na página do GitHub.
+----------------------------------------------
+
+------Recebendo as mudanças-------------------
+° É comum também ter que sincronizar o local com as mudanças do remoto;
+° Esta ação é feita pelo git pull;
+° Após o comando serão buscadas atualizações, se encontradas eleas serão unidas ao código 
+atual existente na nossa máquina.
+
+-> Aqui vc vai saber como receber mudanças no código, feitas por outros devs;
+1. Se vc der um git pull, e aparecer a mensagem "Already up to date", significa
+que tudo já está atualizado. Faça esse comando frequentemente para ver se está usando
+a versão mais nova;
+2. Vamos fazer o git pull para pegar tudo que tem de novo no GitHub.
+3. Podem ser novos arquivos ou até mesmo pequenas atualizações.
+-----------------------------------------------
+
+-----Clonando Repositórios----------------------
+° O ato de baixar um repositório de um servidor remoto é chamado de "clonar repositório";
+° Para esta ação utilizamos o "git clone";
+° Passando a referência do repositório remoto;
+° Este comando é utilizado quando entramos em um novo projet, por exemplo.
+
+->Esse comando é feito para trazer os arquivos do repo para o seu pc;
+1. 
