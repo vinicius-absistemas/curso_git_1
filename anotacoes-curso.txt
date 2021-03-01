@@ -108,4 +108,6 @@ e tudo que tem no repositório será trazido para minha máquina.
 ° Após deletar um arquivo do git ele não terá mais suas atualizações consideradas pelo git;
 ° Apenas quando for adicionado novamente pelo "git add".
 
-->
+->Usando esse comando o arquivo é apagado do seu diretório;
+1. Quando vc usa o git rm, o arquivo é deletado do git e da sua pasta(repositório) consequentemente;
+
