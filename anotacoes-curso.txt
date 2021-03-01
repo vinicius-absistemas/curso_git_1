@@ -56,8 +56,9 @@ que foram feitas;
 1. Quando damos um git status ele vai mostrar tudo verdinho,
 e isso significa que temos que commitar todos;
 2. Para fazer um commit com mensagem, faça: git commit -m "mensagem teste";
-3. Para mandar os arquivos, faça: git commit -a -m "mensagem teste";
-4. Se vc der um git status agora, vai quer que n tem mais nada verdinho.
+3. Para enviar um arvios específico: git commit arquivo.txt -m "mensagem teste";
+4. Para mandar os arquivos, faça: git commit -a -m "mensagem teste";
+5. Se vc der um git status agora, vai quer que n tem mais nada verdinho.
 ----------------------------------------------
 
 -----Enviando arquivos para o Servidor---------
