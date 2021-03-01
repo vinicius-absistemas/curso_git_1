@@ -110,4 +110,11 @@ e tudo que tem no repositório será trazido para minha máquina.
 
 ->Usando esse comando o arquivo é apagado do seu diretório;
 1. Quando vc usa o git rm, o arquivo é deletado do git e da sua pasta(repositório) consequentemente;
+2. Quando isso é feito, é necessário que vc envie essa att ao repositóio com o git push.
+------------------------------------------------
+--------Histórico de alterações-----------------
+° Podemos acessar um log de modificações feitas no projeto;
+° O comando para este recurso é "git log";
+° Você receberá uma informação dos commits realizados no projeto até então;
 
+->teste de log
