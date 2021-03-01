@@ -112,9 +112,23 @@ e tudo que tem no repositório será trazido para minha máquina.
 1. Quando vc usa o git rm, o arquivo é deletado do git e da sua pasta(repositório) consequentemente;
 2. Quando isso é feito, é necessário que vc envie essa att ao repositóio com o git push.
 ------------------------------------------------
+
 --------Histórico de alterações-----------------
 ° Podemos acessar um log de modificações feitas no projeto;
 ° O comando para este recurso é "git log";
 ° Você receberá uma informação dos commits realizados no projeto até então;
 
-->teste de log
+->Quando vc está dentro do log, veja o seguinte:
+1. Dentro do git log, vc pode faze ro seguinte, ir dando enter e ver até a última (primeira),
+alteração que foi feita no seu projeto;
+2. Para sair do git log dentro do windows aperte a tecla "q". No linux apert o "CTRL+C".
+---------------------------------------
+
+---------Renomeando arquivos--------------
+° Com o comando "git mv" podemos renomear um arquivo;
+° O mesmo também pode ser movido para outra pasta;
+° E isso fará com que este novo arquivo seja monitorado pelo git;
+° O arquivo anterior é excluído.
+
+->
+
