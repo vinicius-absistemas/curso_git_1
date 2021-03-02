@@ -143,5 +143,14 @@ git mv (diretorioatual\arqatual.txt) (diretorioatual\arquivonovo.txt)
 ° Após a utilização do mesmo o arquivo sai do staging;
 ° Caso seja feita uma próxima alteração, ele entra no staging novamente.
 
-->
+-> Esse comando pode ser utilizado para vc voltar ao estado original do arquivo no GitHub;
+1. Quando vc faz alguma bosta e quer voltar o arquivo que está mexendo para seu estado atual
+no GitHub, vc deve usar esse comando;
+2. Esse comando não pode ser utilizado depois de fazer um "git commit";
+3. Ao fazer esse comando todas as alterações feitas até o momento são apagadas(reseta) 
+e o arquivo volta ao seu estado original. O comando deve ser feito assim:
+"git checkout diretorioatual\arqatual.txt"
+-------------------------------------------------------------
+
+----------Ignorar arquivos no projeto------------------------
 
