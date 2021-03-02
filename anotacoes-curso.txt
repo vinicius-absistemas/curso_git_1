@@ -169,3 +169,17 @@ Observe o exemplo:
 --------------------------------------------------------------
 
 -----------Desfazendo todas as aterações----------------------
+° Com o comando "git reset" podemos resetar as mudanças feitas;
+° Geralmente é utilizado com a flag --hard;
+° Todas as alterações commitadas e também as pendentes serão excluídas.
+
+-> Basicamente, quando vc faz um git reset, vc volta para o original:
+1. Quando fazermos um git reset, o comando fica assim:
+git reset --hard (branch que queremos resetar)
+\_ git reset --hard origin/master
+2. Usando o hard, todos os arquivos commitados também serão resetados.
+3. O branch, é o repositório que vamos resetar, ou seja, quando selecionamos
+um branch é lá que vamos puxar as informações para resetar.
+(CUIDADO: ESSE COMANDO APAGA TODO O SEU CÓDIGO NÃO PUSHADO)
+
+---------------------FIM----------------------------------------------------------
