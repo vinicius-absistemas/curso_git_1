@@ -153,4 +153,12 @@ e o arquivo volta ao seu estado original. O comando deve ser feito assim:
 -------------------------------------------------------------
 
 ----------Ignorar arquivos no projeto------------------------
+° Uma técnica muito utilizada é ignorar arquivos do projeto;
+° Devemos inserir um arquivo chamado .gitignore na raiz do projeto;
+° Nele podemos inserir todos os arquivos que NÃO devem entrar no versionamento;
+° Isso é útil para arquivos gerados automaticamente ou arquivos que contêm 
+informações sensíveis;
 
+-> Basicamente, tudo que vc colocar nesse arquivo não vai ser mandaro ao GitHub;
+1. Crie na raiz um arquivo .gitignore;
+2. 
