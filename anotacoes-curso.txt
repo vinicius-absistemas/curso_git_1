@@ -161,4 +161,11 @@ informações sensíveis;
 
 -> Basicamente, tudo que vc colocar nesse arquivo não vai ser mandaro ao GitHub;
 1. Crie na raiz um arquivo .gitignore;
-2. 
+2. Nesse arquivo pode-se adicionar o nome dos arquivos para que sejam ignorados. 
+Observe o exemplo:
+-teste.txt (aqui visando ignorar apenas um arquivo)
+-node_modules/app.js (aqui visando ignora um arquivo de uma pasta)
+-node_modules/* (aqui visando ignora todos os arquivo de uma pasta)
+--------------------------------------------------------------
+
+-----------Desfazendo todas as aterações----------------------
