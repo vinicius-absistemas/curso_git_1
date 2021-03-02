@@ -77,15 +77,15 @@ arquivos serão atualizados lá na página do GitHub.
 
 ------Recebendo as mudanças-------------------
 ° É comum também ter que sincronizar o local com as mudanças do remoto;
-° Esta ação é feita pelo git pull;
+° Esta ação é feita pelo "git pull";
 ° Após o comando serão buscadas atualizações, se encontradas eleas serão unidas ao código 
 atual existente na nossa máquina.
 
 -> Aqui vc vai saber como receber mudanças no código, feitas por outros devs;
-1. Se vc der um git pull, e aparecer a mensagem "Already up to date", significa
+1. Se vc der um "git pull", e aparecer a mensagem "Already up to date", significa
 que tudo já está atualizado. Faça esse comando frequentemente para ver se está usando
 a versão mais nova;
-2. Vamos fazer o git pull para pegar tudo que tem de novo no GitHub.
+2. Vamos fazer o "git pull" para pegar tudo que tem de novo no GitHub, ou seja, atts.
 3. Podem ser novos arquivos ou até mesmo pequenas atualizações.
 -----------------------------------------------
 
@@ -104,13 +104,13 @@ e tudo que tem no repositório será trazido para minha máquina.
 ------------------------------------------------
 --------Removendo arquivos do repo--------------
 ° Os arquivos podem ser deletados da monitoração do git;
-° O comando para deletar é o git rm;
+° O comando para deletar é o "git rm";
 ° Após deletar um arquivo do git ele não terá mais suas atualizações consideradas pelo git;
 ° Apenas quando for adicionado novamente pelo "git add".
 
 ->Usando esse comando o arquivo é apagado do seu diretório;
-1. Quando vc usa o git rm, o arquivo é deletado do git e da sua pasta(repositório) consequentemente;
-2. Quando isso é feito, é necessário que vc envie essa att ao repositóio com o git push.
+1. Quando vc usa o "git rm", o arquivo é deletado do git e da sua pasta(repositório) consequentemente;
+2. Quando isso é feito, é necessário que vc envie essa att ao repositóio com o "git push".
 ------------------------------------------------
 
 --------Histórico de alterações-----------------
@@ -119,9 +119,9 @@ e tudo que tem no repositório será trazido para minha máquina.
 ° Você receberá uma informação dos commits realizados no projeto até então;
 
 ->Quando vc está dentro do log, veja o seguinte:
-1. Dentro do git log, vc pode faze ro seguinte, ir dando enter e ver até a última (primeira),
+1. Dentro do "git log", vc pode fazer o seguinte, ir dando enter e ver até a última (primeira),
 alteração que foi feita no seu projeto;
-2. Para sair do git log dentro do windows aperte a tecla "q". No linux apert o "CTRL+C".
+2. Para sair do "git log" dentro do windows aperte a tecla "q". No linux apert o "CTRL+C".
 ---------------------------------------
 
 ---------Renomeando arquivos--------------
@@ -143,10 +143,10 @@ git mv (diretorioatual\arqatual.txt) (diretorioatual\arquivonovo.txt)
 ° Após a utilização do mesmo o arquivo sai do staging;
 ° Caso seja feita uma próxima alteração, ele entra no staging novamente.
 
--> Esse comando pode ser utilizado para vc voltar ao estado original do arquivo no GitHub;
-1. Quando vc faz alguma bosta e quer voltar o arquivo que está mexendo para seu estado atual
+-> Esse comando pode ser utilizado para vc voltar ao estado original do arquivo no GitHub:
+1. Quando vc faz alguma coisa errada e quer voltar o arquivo que está mexendo para seu estado atual
 no GitHub, vc deve usar esse comando;
-2. Esse comando não pode ser utilizado depois de fazer um "git commit";
+2. Esse comando não funciona para arquivos já commitados;
 3. Ao fazer esse comando todas as alterações feitas até o momento são apagadas(reseta) 
 e o arquivo volta ao seu estado original. O comando deve ser feito assim:
 "git checkout diretorioatual\arqatual.txt"
@@ -154,13 +154,13 @@ e o arquivo volta ao seu estado original. O comando deve ser feito assim:
 
 ----------Ignorar arquivos no projeto------------------------
 ° Uma técnica muito utilizada é ignorar arquivos do projeto;
-° Devemos inserir um arquivo chamado .gitignore na raiz do projeto;
+° Devemos inserir um arquivo chamado ".gitignore" na raiz do projeto;
 ° Nele podemos inserir todos os arquivos que NÃO devem entrar no versionamento;
 ° Isso é útil para arquivos gerados automaticamente ou arquivos que contêm 
 informações sensíveis;
 
--> Basicamente, tudo que vc colocar nesse arquivo não vai ser mandaro ao GitHub;
-1. Crie na raiz um arquivo .gitignore;
+-> Basicamente, tudo que vc colocar nesse arquivo não vai ser mandado ao GitHub;
+1. Crie na raiz um arquivo ".gitignore";
 2. Nesse arquivo pode-se adicionar o nome dos arquivos para que sejam ignorados. 
 Observe o exemplo:
 -teste.txt (aqui visando ignorar apenas um arquivo)
@@ -177,9 +177,9 @@ Observe o exemplo:
 1. Quando fazermos um git reset, o comando fica assim:
 git reset --hard (branch que queremos resetar)
 \_ git reset --hard origin/master
-2. Usando o hard, todos os arquivos commitados também serão resetados.
+2. Usando o --hard, todos os arquivos commitados também serão resetados.
 3. O branch, é o repositório que vamos resetar, ou seja, quando selecionamos
 um branch é lá que vamos puxar as informações para resetar.
-(CUIDADO: ESSE COMANDO APAGA TODO O SEU CÓDIGO NÃO PUSHADO)
+(CUIDADO: ESSE COMANDO APAGA TODO O SEU CÓDIGO NÃO UPADO NO GITHUB)
 
 ---------------------FIM----------------------------------------------------------
