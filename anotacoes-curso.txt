@@ -27,14 +27,14 @@ poucos comandos;
 ou salvo no projeto, ou seja, tudo que aparece no git status, é pq ainda não
 foi upado no servidor.
 
--> Estando dentro do terminal faça: git status;
+-> Estando dentro do terminal faça: "git status";
 1. Arquivos UNTRACKED: quando ainda não está sendo mapeado pelo git.
 2. Se é feito uma modificação e essa mudança ainda não,
-foi enviado ao repo, ele aparece como MODIFIED.(Esse já está no tracked)
+foi enviada ao repo, ele (o arquivo) aparece como MODIFIED.(Esse já está no tracked)
 ---------------------------------------------
 
 -----Adicionando arquivos ao projeto---------
-° Para adicionar arquivos a um projeto utilizamos o: git add;
+° Para adicionar arquivos a um projeto utilizamos o: "git add";
 ° Podemos adicionar um arquivo específico como também diversos de uma vez só;
 ° Somente adicionadno arquivos eles serão monitorados pelo git;
 ° É interessante utilizar este comando de tempos em tempos para n perder nada.
@@ -46,33 +46,33 @@ foi enviado ao repo, ele aparece como MODIFIED.(Esse já está no tracked)
 ----------------------------------------------
 
 -----Salvando alterações----------------------
-° As alterações salvas do projeto são realizadas por: git commit;
-° Podemos commitar arquivos específicos ou vários de uma vez com a flag -a;
+° As alterações salvas do projeto são realizadas pelo comando: "git commit";
+° Podemos commitar arquivos específicos ou vários de uma vez com a "flag -a";
 ° É uma boa prática enviar uma mensagem a cada commit, com as alterações 
 que foram feitas;
 ° A mensagem pode ser add com a flag -m.
 
--> Aqui basicamente vamos aprender a commitar:
-1. Quando damos um git status ele vai mostrar tudo verdinho,
+-> Aqui basicamente vamos aprender a commitar (salvar a alteração):
+1. Quando damos um "git status" ele vai mostrar tudo verdinho,
 e isso significa que temos que commitar todos;
 2. Para fazer um commit com mensagem, faça: git commit -m "mensagem teste";
 3. Para enviar um arvios específico: git commit arquivo.txt -m "mensagem teste";
-4. Para mandar os arquivos, faça: git commit -a -m "mensagem teste";
-5. Se vc der um git status agora, vai quer que n tem mais nada verdinho.
+4. Para mandar todos os arquivos, faça: git commit -a -m "mensagem teste";
+5. Se vc der um "git status" agora, não vai aparecer mais nada verdinho.
 ----------------------------------------------
 
 -----Enviando arquivos para o Servidor---------
 ° Quando finalizamos uma funcionalidade nova, enviamos o código ao repositório
 remoto, que é código-fonte;
-° Esta ação é feita pelo git push;
+° Esta ação é feita pelo "git push";
 ° Após esta ação o código do servidor será atualizado baseando-se no códido 
 local enviado.
 
--> O comando para fazermos o envio de todo o código para o GitHub é o git push;
-1. O estado idel para enviar um código é quando vc dá um git status e não tem nada lá
-para você enviar; 
-2. Se vc der um git status e não aparecer nada, pode dar um git push e todos os seus
-arquivos apareceram lá na página do GitHub.
+-> O comando para fazermos o envio de todo o código para o GitHub é o "git push";
+1. O estado idel para enviar um código é quando vc dá um "git status" e não tem nada lá
+para você add ou commitar; 
+2. Se vc der um "git status" e não aparecer nada, pode dar um git push e todos os seus
+arquivos serão atualizados lá na página do GitHub.
 ----------------------------------------------
 
 ------Recebendo as mudanças-------------------
